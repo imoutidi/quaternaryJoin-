@@ -1,0 +1,10 @@
+Excecution Command:
+
+[PATH OF SPARK SUBMIT FILE] --class "SimpleApp" -- master local[4] [PATH OF THE JAR FILE] [PATH TO THE INPUT FILE] [PATH TO THE OUTPUT FILE] [NUMBER OF REDUCERS]
+
+Example:
+/home/hercules/distSystems/spark-1.5.2/bin/spark-submit  --class "SimpleApp" --master local[4] /home/hercules/distSystems/ergasia/ErgasiaParadoteo/join-application_2.10-1.0.jar /home/hercules/distSystems/ergasia/ErgasiaParadoteo/data1.txt /home/hercules/distSystems/ergasia/ErgasiaParadoteo/outPut 30
+
+
+
+
